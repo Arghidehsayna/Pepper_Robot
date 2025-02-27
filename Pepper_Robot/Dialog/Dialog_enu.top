@@ -1,0 +1,21 @@
+topic: ~Dialog()
+language: enu
+
+# Defining extra concepts out of words or group of words
+#concept:(hello) [hello hi hey "good morning" greetings]
+
+# Catching inputs and triggering outputs
+#u:(e:onStart) $onStopped=1
+
+# Replying to speech
+#u:(~hello) ~hello
+
+
+
+# Catching inputs and triggering outputs
+
+
+# Replying to speech
+u:(register) Great! First, Can I give you some information about our gym?
+u:(confirm) Our gym is open from 8 AM until 12 AM every day, even on holidays.
+u:(appreciate) Let me gather some information about you to guide you better. $onAppreciate = 1
